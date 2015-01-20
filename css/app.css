@@ -1,0 +1,123 @@
+#board {
+    height: 800px;
+    width: 800px;    
+    margin: auto;
+    border: 40px solid #6B4226; 
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888;    
+}
+ 
+#board .square {
+    height: 100px;
+    width: 100px;
+    background: #97694F;
+    float: left;
+    font-size: 45px;
+    cursor: move;
+    -webkit-transition:-webkit-transform 0.5s, box-shadow 0.5s, background 0.5s;
+}
+ 
+#board .square.black {
+    background: #663300;
+}
+ 
+#board .square div {
+    height: 100px;
+    width: 100px;
+}
+
+#board .square.validMove {
+    background: green;
+    /*-webkit-transform:translate(-5px,-5px);
+    box-shadow: 5px 5px 6px #5C3317;*/
+}
+
+#board .square.invalidMove {
+    background: red;
+    /*-webkit-transform:translate(-5px,-5px);
+    box-shadow: 5px 5px 6px #5C3317;*/
+}
+
+#board .square.white_rook
+{
+    background-image: url('../img/white_rook.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.white_knight
+{
+    background-image: url('../img/white_knight.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.white_bishop
+{
+    background-image: url('../img/white_bishop.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.white_queen
+{
+    background-image: url('../img/white_queen.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.white_king
+{
+    background-image: url('../img/white_king.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.white_pawn
+{
+    background-image: url('../img/white_pawn.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_rook
+{
+    background-image: url('../img/black_rook.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_knight
+{
+    background-image: url('../img/black_knight.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_bishop
+{
+    background-image: url('../img/black_bishop.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_queen
+{
+    background-image: url('../img/black_queen.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_king
+{
+    background-image: url('../img/black_king.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
+
+#board .square.black_pawn
+{
+    background-image: url('../img/black_pawn.png');
+    background-repeat: no-repeat;
+    background-position:center;    
+}
